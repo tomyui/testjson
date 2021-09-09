@@ -1,232 +1,234 @@
-[
-    {
-        "_index": "clap_dc1_sit:.ds-eap_wls_access_application_ds-000006",
-        "_type": "_doc",
-        "_source": {
-            "agent": {
-                "hostname": "eaptst72m",
-                "name": "eaptst72m",
-                "id": "5ee20099-0d39-430f-b17f-5d2d56004d7c",
-                "ephemeral_id": "6e9017dd-17b6-4294-999a-d50402522d76",
-                "type": "filebeat",
-                "version": "7.10.1"
-            },
-            "log": {
-                "file": {
-                    "path": "/appl/nbi/log/wls1_nbi_sit/NbiCorpSit_eaptst72m_14160/access.yyyyMMdd.HHmmss.log"
+{
+    "hits": [
+        {
+            "_index": "clap_dc1_sit:.ds-eap_wls_access_application_ds-000006",
+            "_type": "_doc",
+            "_source": {
+                "agent": {
+                    "hostname": "eaptst72m",
+                    "name": "eaptst72m",
+                    "id": "5ee20099-0d39-430f-b17f-5d2d56004d7c",
+                    "ephemeral_id": "6e9017dd-17b6-4294-999a-d50402522d76",
+                    "type": "filebeat",
+                    "version": "7.10.1"
                 },
-                "offset": 37060498
-            },
-            "project": "nbi",
-            "sessionid": "-",
-            "networktype": "Intranet",
-            "tid": 120,
-            "wlsname": "NbiCorpSit_eaptst72m_14160",
-            "protocol": "HTTP/1.1",
-            "datetime": "2021-09-03 15:34:00",
-            "timetaken": 0.024,
-            "ecs": {
-                "version": "1.6.0"
-            },
-            "ecid": "4c71f5a2-4d05-4893-9870-82863570a66a-00000022",
-            "clientip": "160.99.26.28",
-            "wlscluster": "NbiCorpSit",
-            "host": {
-                "name": "eaptst72m"
-            },
-            "endts": 1630654440025,
-            "@version": "1",
-            "sourcetype": "Desktop",
-            "method": "GET",
-            "logstash.name": "lgavmc2k",
-            "env": "sit",
-            "wlsdomain": "wls1_nbi_sit",
-            "uri": "/nbi-scheduler-intf-wss/api/v1.0.0/CheckWaiverResultServlet",
-            "tags": [
-                "deploy-filebeat_clapv2.2.3fix",
-                "beats_input_codec_plain_applied",
-                "beats_input_codec_json_applied",
-                "deploy-logstash_clapv2.2.3",
-                "eap_wls_access_application"
-            ],
-            "vhost": "eaptst72m:14160",
-            "input": {
-                "type": "log"
-            },
-            "@timestamp": "2021-09-03T07:34:00Z",
-            "indextime": "2021-09-03T07:34:05.019245242Z",
-            "response": 200,
-            "bytes": 0,
-            "fields": {
-                "service": "eap_wls_access"
-            },
-            "dc": "HKCH",
-            "apireturned_projects": [
-                {
-                    "apireturned_host": "eapsrv5e",
-                    "apireturned_code": "CMSICACC",
-                    "apireturned_email": [
-                        "producticaccsupp@ha.org.hk"
-                    ]
+                "log": {
+                    "file": {
+                        "path": "/appl/nbi/log/wls1_nbi_sit/NbiCorpSit_eaptst72m_14160/access.yyyyMMdd.HHmmss.log"
+                    },
+                    "offset": 37060498
                 },
-                {
-                    "apireturned_host": "eapsrv5e",
-                    "apireturned_code": "EAP",
-                    "apireturned_email": [
-                        "haitseapsupportteam@ho.ha.org.hk"
-                    ]
+                "project": "nbi",
+                "sessionid": "-",
+                "networktype": "Intranet",
+                "tid": 120,
+                "wlsname": "NbiCorpSit_eaptst72m_14160",
+                "protocol": "HTTP/1.1",
+                "datetime": "2021-09-03 15:34:00",
+                "timetaken": 0.024,
+                "ecs": {
+                    "version": "1.6.0"
                 },
-                {
-                    "apireturned_host": "eapsrv5e",
-                    "apireturned_code": "T2",
-                    "apireturned_email": [
-                        "haitst2supportgrp@ho.ha.org.hk",
-                        "t2support1@ho.ha.org.hk"
-                    ]
-                }
-            ]
+                "ecid": "4c71f5a2-4d05-4893-9870-82863570a66a-00000022",
+                "clientip": "160.99.26.28",
+                "wlscluster": "NbiCorpSit",
+                "host": {
+                    "name": "eaptst72m"
+                },
+                "endts": 1630654440025,
+                "@version": "1",
+                "sourcetype": "Desktop",
+                "method": "GET",
+                "logstash.name": "lgavmc2k",
+                "env": "sit",
+                "wlsdomain": "wls1_nbi_sit",
+                "uri": "/nbi-scheduler-intf-wss/api/v1.0.0/CheckWaiverResultServlet",
+                "tags": [
+                    "deploy-filebeat_clapv2.2.3fix",
+                    "beats_input_codec_plain_applied",
+                    "beats_input_codec_json_applied",
+                    "deploy-logstash_clapv2.2.3",
+                    "eap_wls_access_application"
+                ],
+                "vhost": "eaptst72m:14160",
+                "input": {
+                    "type": "log"
+                },
+                "@timestamp": "2021-09-03T07:34:00Z",
+                "indextime": "2021-09-03T07:34:05.019245242Z",
+                "response": 200,
+                "bytes": 0,
+                "fields": {
+                    "service": "eap_wls_access"
+                },
+                "dc": "HKCH",
+                "apireturned_projects": [
+                    {
+                        "apireturned_host": "eapsrv5e",
+                        "apireturned_code": "CMSICACC",
+                        "apireturned_email": [
+                            "producticaccsupp@ha.org.hk"
+                        ]
+                    },
+                    {
+                        "apireturned_host": "eapsrv5e",
+                        "apireturned_code": "EAP",
+                        "apireturned_email": [
+                            "haitseapsupportteam@ho.ha.org.hk"
+                        ]
+                    },
+                    {
+                        "apireturned_host": "eapsrv5e",
+                        "apireturned_code": "T2",
+                        "apireturned_email": [
+                            "haitst2supportgrp@ho.ha.org.hk",
+                            "t2support1@ho.ha.org.hk"
+                        ]
+                    }
+                ]
+            },
+            "_id": "eqaUqnsBwmDNqlUVNcfb",
+            "_score": 0
         },
-        "_id": "eqaUqnsBwmDNqlUVNcfb",
-        "_score": 0
-    },
-    {
-        "_index": "clap_dc1_sit:.ds-eap_wls_access_application_ds-000006",
-        "_type": "_doc",
-        "_source": {
-            "agent": {
-                "hostname": "eaptst72f",
-                "name": "eaptst72f",
-                "id": "5514d465-03c3-40b2-9a14-54429c9de9f3",
-                "type": "filebeat",
-                "ephemeral_id": "84b6fe9d-17a3-4492-859a-b651d24caa50",
-                "version": "7.10.1"
-            },
-            "log": {
-                "file": {
-                    "path": "/appl/hago/log/wls1_hago_aat/HagoCorpGopcAat_eaptst72f_26847/access.yyyyMMdd.HHmmss.log"
+        {
+            "_index": "clap_dc1_sit:.ds-eap_wls_access_application_ds-000006",
+            "_type": "_doc",
+            "_source": {
+                "agent": {
+                    "hostname": "eaptst72f",
+                    "name": "eaptst72f",
+                    "id": "5514d465-03c3-40b2-9a14-54429c9de9f3",
+                    "type": "filebeat",
+                    "ephemeral_id": "84b6fe9d-17a3-4492-859a-b651d24caa50",
+                    "version": "7.10.1"
                 },
-                "offset": 27132057
-            },
-            "project": "hago",
-            "networktype": "Intranet",
-            "sessionid": "-",
-            "tid": 78,
-            "wlsname": "HagoCorpGopcAat_eaptst72f_26847",
-            "datetime": "2021-09-03 15:39:00",
-            "protocol": "HTTP/1.1",
-            "ecs": {
-                "version": "1.6.0"
-            },
-            "timetaken": 0.032,
-            "ecid": "d11a2a76-b216-4700-b022-54be1485816b-000b2a62",
-            "clientip": "160.200.136.52",
-            "endts": 1630654740064,
-            "host": {
-                "name": "eaptst72f"
-            },
-            "wlscluster": "HagoCorpGopcAat",
-            "@version": "1",
-            "sourcetype": "Desktop",
-            "method": "POST",
-            "logstash.name": "lgavmc2r",
-            "env": "aat",
-            "wlsdomain": "wls1_hago_aat",
-            "c_ip": "160.90.112.134",
-            "uri": "/hago/gopc/opas/uch/canProcessUpdatedQuota",
-            "x_forwarded_for": "160.200.136.52",
-            "tags": [
-                "deploy-filebeat_clapv2.2.3fix",
-                "beats_input_codec_plain_applied",
-                "beats_input_codec_json_applied",
-                "deploy-logstash_clapv2.2.3",
-                "eap_wls_access_application"
-            ],
-            "input": {
-                "type": "log"
-            },
-            "vhost": "hago-corp-gopc-aat.serverdev.hadev.org.hk:28847",
-            "@timestamp": "2021-09-03T07:39:00Z",
-            "indextime": "2021-09-03T07:39:08.411791711Z",
-            "bytes": 13,
-            "response": 200,
-            "fields": {
-                "service": "eap_wls_access"
-            },
-            "dc": "HKCH",
-            "apireturned_projects": []
-        },
-        "_id": "PxmYqnsBF1eltEJT1u38",
-        "_score": 0
-    },
-    {
-        "_index": "clap_dc1_sit:.ds-eap_wls_access_application_ds-000006",
-        "_type": "_doc",
-        "_source": {
-            "cluster": "NA",
-            "agent": {
-                "hostname": "eaptst72a",
-                "name": "eaptst72a",
-                "id": "bde5b9c2-9271-4e60-9b1d-6f21d51d1ee7",
-                "ephemeral_id": "fa261240-353b-42e3-892a-55721c96b796",
-                "type": "filebeat",
-                "version": "7.10.1"
-            },
-            "log": {
-                "file": {
-                    "path": "/appl/eai/log/wls1_eai_sit/EaiCorpSupportSit_eaptst72a_14267/access.yyyyMMdd.HHmmss.log"
+                "log": {
+                    "file": {
+                        "path": "/appl/hago/log/wls1_hago_aat/HagoCorpGopcAat_eaptst72f_26847/access.yyyyMMdd.HHmmss.log"
+                    },
+                    "offset": 27132057
                 },
-                "offset": 22440586
+                "project": "hago",
+                "networktype": "Intranet",
+                "sessionid": "-",
+                "tid": 78,
+                "wlsname": "HagoCorpGopcAat_eaptst72f_26847",
+                "datetime": "2021-09-03 15:39:00",
+                "protocol": "HTTP/1.1",
+                "ecs": {
+                    "version": "1.6.0"
+                },
+                "timetaken": 0.032,
+                "ecid": "d11a2a76-b216-4700-b022-54be1485816b-000b2a62",
+                "clientip": "160.200.136.52",
+                "endts": 1630654740064,
+                "host": {
+                    "name": "eaptst72f"
+                },
+                "wlscluster": "HagoCorpGopcAat",
+                "@version": "1",
+                "sourcetype": "Desktop",
+                "method": "POST",
+                "logstash.name": "lgavmc2r",
+                "env": "aat",
+                "wlsdomain": "wls1_hago_aat",
+                "c_ip": "160.90.112.134",
+                "uri": "/hago/gopc/opas/uch/canProcessUpdatedQuota",
+                "x_forwarded_for": "160.200.136.52",
+                "tags": [
+                    "deploy-filebeat_clapv2.2.3fix",
+                    "beats_input_codec_plain_applied",
+                    "beats_input_codec_json_applied",
+                    "deploy-logstash_clapv2.2.3",
+                    "eap_wls_access_application"
+                ],
+                "input": {
+                    "type": "log"
+                },
+                "vhost": "hago-corp-gopc-aat.serverdev.hadev.org.hk:28847",
+                "@timestamp": "2021-09-03T07:39:00Z",
+                "indextime": "2021-09-03T07:39:08.411791711Z",
+                "bytes": 13,
+                "response": 200,
+                "fields": {
+                    "service": "eap_wls_access"
+                },
+                "dc": "HKCH",
+                "apireturned_projects": []
             },
-            "project": "eai",
-            "sessionid": "-",
-            "networktype": "Intranet",
-            "tid": 122,
-            "hospitalCode": "DC7",
-            "wlsname": "EaiCorpSupportSit_eaptst72a_14267",
-            "datetime": "2021-09-03 15:40:06",
-            "protocol": "HTTP/1.1",
-            "ecs": {
-                "version": "1.6.0"
-            },
-            "timetaken": 0.015,
-            "ecid": "1bfe1032-95da-49d0-9b6d-4278953bc1fb-002cf287",
-            "clientip": "160.89.119.20",
-            "endts": 1630654806143,
-            "@version": "1",
-            "wlscluster": "EaiCorpSupportSit",
-            "host": {
-                "name": "eaptst72a"
-            },
-            "sourcetype": "Desktop",
-            "method": "POST",
-            "logstash.name": "lgavmc2q",
-            "wlsdomain": "wls1_eai_sit",
-            "env": "sit",
-            "c_ip": "160.89.119.20",
-            "uri": "/EAI3MonitorData/MonitorJsonValueQueryServlet",
-            "tags": [
-                "deploy-filebeat_clapv2.2.3fix",
-                "beats_input_codec_plain_applied",
-                "beats_input_codec_json_applied",
-                "deploy-logstash_clapv2.2.3",
-                "eap_wls_access_application"
-            ],
-            "x_forwarded_for": "160.89.119.20",
-            "vhost": "eaptst72a:14267",
-            "input": {
-                "type": "log"
-            },
-            "@timestamp": "2021-09-03T07:40:06Z",
-            "indextime": "2021-09-03T07:40:10.894379891Z",
-            "response": 200,
-            "bytes": 9369,
-            "fields": {
-                "service": "eap_wls_access"
-            },
-            "dc": "HKCH",
-            "apireturned_projects": []
+            "_id": "PxmYqnsBF1eltEJT1u38",
+            "_score": 0
         },
-        "_id": "MsyZqnsBvaFyRwzQy8EO",
-        "_score": 0
-    }
-]
+        {
+            "_index": "clap_dc1_sit:.ds-eap_wls_access_application_ds-000006",
+            "_type": "_doc",
+            "_source": {
+                "cluster": "NA",
+                "agent": {
+                    "hostname": "eaptst72a",
+                    "name": "eaptst72a",
+                    "id": "bde5b9c2-9271-4e60-9b1d-6f21d51d1ee7",
+                    "ephemeral_id": "fa261240-353b-42e3-892a-55721c96b796",
+                    "type": "filebeat",
+                    "version": "7.10.1"
+                },
+                "log": {
+                    "file": {
+                        "path": "/appl/eai/log/wls1_eai_sit/EaiCorpSupportSit_eaptst72a_14267/access.yyyyMMdd.HHmmss.log"
+                    },
+                    "offset": 22440586
+                },
+                "project": "eai",
+                "sessionid": "-",
+                "networktype": "Intranet",
+                "tid": 122,
+                "hospitalCode": "DC7",
+                "wlsname": "EaiCorpSupportSit_eaptst72a_14267",
+                "datetime": "2021-09-03 15:40:06",
+                "protocol": "HTTP/1.1",
+                "ecs": {
+                    "version": "1.6.0"
+                },
+                "timetaken": 0.015,
+                "ecid": "1bfe1032-95da-49d0-9b6d-4278953bc1fb-002cf287",
+                "clientip": "160.89.119.20",
+                "endts": 1630654806143,
+                "@version": "1",
+                "wlscluster": "EaiCorpSupportSit",
+                "host": {
+                    "name": "eaptst72a"
+                },
+                "sourcetype": "Desktop",
+                "method": "POST",
+                "logstash.name": "lgavmc2q",
+                "wlsdomain": "wls1_eai_sit",
+                "env": "sit",
+                "c_ip": "160.89.119.20",
+                "uri": "/EAI3MonitorData/MonitorJsonValueQueryServlet",
+                "tags": [
+                    "deploy-filebeat_clapv2.2.3fix",
+                    "beats_input_codec_plain_applied",
+                    "beats_input_codec_json_applied",
+                    "deploy-logstash_clapv2.2.3",
+                    "eap_wls_access_application"
+                ],
+                "x_forwarded_for": "160.89.119.20",
+                "vhost": "eaptst72a:14267",
+                "input": {
+                    "type": "log"
+                },
+                "@timestamp": "2021-09-03T07:40:06Z",
+                "indextime": "2021-09-03T07:40:10.894379891Z",
+                "response": 200,
+                "bytes": 9369,
+                "fields": {
+                    "service": "eap_wls_access"
+                },
+                "dc": "HKCH",
+                "apireturned_projects": []
+            },
+            "_id": "MsyZqnsBvaFyRwzQy8EO",
+            "_score": 0
+        }
+    ]
+}
